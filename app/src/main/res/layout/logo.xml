@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Hallo Mochammad Irfandhy"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="37dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Nikmati pertama mobile Z Terbaru Untuk Transaksi Yang lebih Aman Dan Mudah!"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="144dp"
+        android:textSize="23dp"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/img"
+        android:layout_marginTop="240dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="200dp"
+        android:background="@drawable/img_7"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="596dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Masuk :"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
